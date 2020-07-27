@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-07-27T02:49:33.717Z" agent="5.0 (Windows)" etag="RVN5XY2YIvBCwpgXztdh" version="13.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-27T03:09:44.240Z" agent="5.0 (Windows)" etag="UhPi2-XTvVJPiFxIPABW" version="13.5.3" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
-    <mxGraphModel dx="1185" dy="688" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="2000" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="617" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="2000" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -170,7 +170,7 @@
           <mxGeometry x="1150" y="710" width="100" height="70" as="geometry" />
         </mxCell>
         <mxCell id="JqlryfgMJIv1-VmyIzc9-8" value="Browser" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="190" y="800" width="160" height="800" as="geometry" />
+          <mxGeometry x="190" y="800" width="100" height="800" as="geometry" />
         </mxCell>
         <mxCell id="JqlryfgMJIv1-VmyIzc9-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="JqlryfgMJIv1-VmyIzc9-8" vertex="1">
           <mxGeometry x="45" y="140" width="10" height="140" as="geometry" />
@@ -183,22 +183,19 @@
             <mxPoint x="-40" y="550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zZore4M1GCGTvKos9PnM-48" value="site.com/map/#/?category=beach" style="shape=note;whiteSpace=wrap;html=1;size=11;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="JqlryfgMJIv1-VmyIzc9-8">
-          <mxGeometry x="-70" y="420" width="200" height="35" as="geometry" />
-        </mxCell>
         <mxCell id="JqlryfgMJIv1-VmyIzc9-9" value="WordPress" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="1150" y="800" width="100" height="800" as="geometry" />
         </mxCell>
         <mxCell id="JqlryfgMJIv1-VmyIzc9-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="JqlryfgMJIv1-VmyIzc9-9" vertex="1">
           <mxGeometry x="45" y="140" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="JqlryfgMJIv1-VmyIzc9-11" value="GET" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;exitX=1.25;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="JqlryfgMJIv1-VmyIzc9-13" target="JqlryfgMJIv1-VmyIzc9-10" edge="1">
+        <mxCell id="JqlryfgMJIv1-VmyIzc9-11" value="2: GET" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" parent="1" source="JqlryfgMJIv1-VmyIzc9-13" target="JqlryfgMJIv1-VmyIzc9-10" edge="1">
           <mxGeometry x="-0.847" relative="1" as="geometry">
             <mxPoint x="190" y="890" as="sourcePoint" />
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JqlryfgMJIv1-VmyIzc9-12" value="return frontpage" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;entryX=0.997;entryY=0.546;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="JqlryfgMJIv1-VmyIzc9-10" target="JqlryfgMJIv1-VmyIzc9-13" edge="1">
+        <mxCell id="JqlryfgMJIv1-VmyIzc9-12" value="3: return frontpage" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;entryX=0.997;entryY=0.546;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="JqlryfgMJIv1-VmyIzc9-10" target="JqlryfgMJIv1-VmyIzc9-13" edge="1">
           <mxGeometry x="0.842" relative="1" as="geometry">
             <mxPoint x="260" y="1056" as="targetPoint" />
             <mxPoint as="offset" />
@@ -223,23 +220,22 @@
           <mxGeometry x="670" y="800" width="100" height="800" as="geometry" />
         </mxCell>
         <mxCell id="zZore4M1GCGTvKos9PnM-20" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="zZore4M1GCGTvKos9PnM-1">
-          <mxGeometry x="45" y="390" width="10" height="110" as="geometry" />
+          <mxGeometry x="45" y="390" width="10" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="zZore4M1GCGTvKos9PnM-46" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="zZore4M1GCGTvKos9PnM-1">
-          <mxGeometry x="50" y="440" width="10" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="zZore4M1GCGTvKos9PnM-47" value="mark category checkbox" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="zZore4M1GCGTvKos9PnM-46" parent="zZore4M1GCGTvKos9PnM-1">
+        <mxCell id="zZore4M1GCGTvKos9PnM-47" value="&lt;div&gt;9.2: v-model marks&lt;/div&gt;&lt;div&gt;&#39;beach&#39; checkbox&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" edge="1" target="zZore4M1GCGTvKos9PnM-20" parent="zZore4M1GCGTvKos9PnM-1" source="zZore4M1GCGTvKos9PnM-20">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="55" y="420" as="sourcePoint" />
+            <mxPoint x="70" y="420" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="80" y="420" />
+              <mxPoint x="80" y="460" />
+              <mxPoint x="80" y="500" />
             </Array>
+            <mxPoint x="60" y="519.9655172413793" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zZore4M1GCGTvKos9PnM-2" value="Google Maps Component" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="830" y="800" width="100" height="800" as="geometry" />
         </mxCell>
-        <mxCell id="zZore4M1GCGTvKos9PnM-21" value="category to display" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="zZore4M1GCGTvKos9PnM-20" parent="1" source="zZore4M1GCGTvKos9PnM-14">
+        <mxCell id="zZore4M1GCGTvKos9PnM-21" value="8: category to display" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="zZore4M1GCGTvKos9PnM-20" parent="1" source="zZore4M1GCGTvKos9PnM-14">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="580" y="1180" as="sourcePoint" />
           </mxGeometry>
@@ -247,31 +243,31 @@
         <mxCell id="zZore4M1GCGTvKos9PnM-23" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="70" y="800" width="20" height="800" as="geometry" />
         </mxCell>
-        <mxCell id="zZore4M1GCGTvKos9PnM-24" value="go to site.com" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="zZore4M1GCGTvKos9PnM-23" target="JqlryfgMJIv1-VmyIzc9-8">
+        <mxCell id="zZore4M1GCGTvKos9PnM-24" value="1: go to site.com" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="zZore4M1GCGTvKos9PnM-23" target="JqlryfgMJIv1-VmyIzc9-8">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="10" y="100" as="sourcePoint" />
             <mxPoint x="90" y="100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zZore4M1GCGTvKos9PnM-27" value="query string" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.004;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zZore4M1GCGTvKos9PnM-42" target="zZore4M1GCGTvKos9PnM-14">
+        <mxCell id="zZore4M1GCGTvKos9PnM-27" value="7: query string" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.004;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zZore4M1GCGTvKos9PnM-42" target="zZore4M1GCGTvKos9PnM-14">
           <mxGeometry x="-0.0003" width="80" relative="1" as="geometry">
             <mxPoint x="410" y="1179" as="sourcePoint" />
             <mxPoint x="330" y="1120" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zZore4M1GCGTvKos9PnM-28" value="display frontpage" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.014;exitY=0.93;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="JqlryfgMJIv1-VmyIzc9-13" target="zZore4M1GCGTvKos9PnM-23">
+        <mxCell id="zZore4M1GCGTvKos9PnM-28" value="4: display frontpage" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.014;exitY=0.93;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="JqlryfgMJIv1-VmyIzc9-13" target="zZore4M1GCGTvKos9PnM-23">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="200" y="1070" as="sourcePoint" />
             <mxPoint x="120" y="1070" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zZore4M1GCGTvKos9PnM-33" value="click &#39;Beaches Nearby&#39; card" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="zZore4M1GCGTvKos9PnM-32" parent="1" source="zZore4M1GCGTvKos9PnM-23">
+        <mxCell id="zZore4M1GCGTvKos9PnM-33" value="5: click &#39;Beaches Nearby&#39; card" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="zZore4M1GCGTvKos9PnM-32" parent="1" source="zZore4M1GCGTvKos9PnM-23">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="165" y="1160" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zZore4M1GCGTvKos9PnM-38" value="Beach" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="zZore4M1GCGTvKos9PnM-37" parent="1" source="zZore4M1GCGTvKos9PnM-20">
+        <mxCell id="zZore4M1GCGTvKos9PnM-38" value="9.1: Beach" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="zZore4M1GCGTvKos9PnM-37" parent="1" source="zZore4M1GCGTvKos9PnM-20">
           <mxGeometry x="-0.5161" relative="1" as="geometry">
             <mxPoint x="965" y="1190" as="sourcePoint" />
             <mxPoint as="offset" />
@@ -286,7 +282,7 @@
         <mxCell id="zZore4M1GCGTvKos9PnM-41" value="WP page with VueJS app mounted on &amp;lt;app&amp;gt; div" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="1">
           <mxGeometry x="350" y="710" width="100" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="zZore4M1GCGTvKos9PnM-45" value="GET" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" source="zZore4M1GCGTvKos9PnM-32" target="zZore4M1GCGTvKos9PnM-42">
+        <mxCell id="zZore4M1GCGTvKos9PnM-45" value="6: GET" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" source="zZore4M1GCGTvKos9PnM-32" target="zZore4M1GCGTvKos9PnM-42">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="280" y="1170" as="sourcePoint" />
             <mxPoint x="360" y="1170" as="targetPoint" />
@@ -294,6 +290,9 @@
               <mxPoint x="330" y="1170" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="zZore4M1GCGTvKos9PnM-48" value="site.com/map/#/?category=beach" style="shape=note;whiteSpace=wrap;html=1;size=11;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1182.5" width="200" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
