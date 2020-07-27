@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-07-27T09:54:00.855Z" agent="5.0 (Windows)" etag="EwLHEqzuDXdeNmHAl5Rr" version="13.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-27T09:55:43.175Z" agent="5.0 (Windows)" etag="_LE9_UyVSAzJQ7kGcaot" version="13.5.3" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
-    <mxGraphModel dx="1185" dy="688" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="1500" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="2031" dy="1179" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="1500" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -57,12 +57,7 @@
           <mxGeometry x="45" y="770" width="10" height="110" as="geometry" />
         </mxCell>
         <mxCell id="NLJbwnEcYg1UQVGaQh75-52" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#808080;fontColor=#808080;" vertex="1" parent="JqlryfgMJIv1-VmyIzc9-16">
-          <mxGeometry x="45" y="930" width="10" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="NLJbwnEcYg1UQVGaQh75-54" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;strokeColor=#808080;fontColor=#808080;" edge="1" source="NLJbwnEcYg1UQVGaQh75-52" parent="JqlryfgMJIv1-VmyIzc9-16">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-25" y="1006" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="45" y="950" width="10" height="50" as="geometry" />
         </mxCell>
         <mxCell id="JqlryfgMJIv1-VmyIzc9-17" value="Vue Router" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontColor=#808080;strokeColor=#808080;" parent="1" vertex="1">
           <mxGeometry x="590" y="290" width="100" height="1100" as="geometry" />
@@ -239,6 +234,12 @@
         <mxCell id="NLJbwnEcYg1UQVGaQh75-53" value="&lt;div&gt;get selected categories,&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;get user coordinates&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;strokeColor=#808080;fontColor=#808080;" edge="1" target="NLJbwnEcYg1UQVGaQh75-52" parent="1" source="zZore4M1GCGTvKos9PnM-42">
           <mxGeometry x="-0.7619" relative="1" as="geometry">
             <mxPoint x="500" y="1200" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NLJbwnEcYg1UQVGaQh75-54" value="return categories and coords" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;strokeColor=#808080;fontColor=#808080;" edge="1" source="NLJbwnEcYg1UQVGaQh75-52" parent="1" target="zZore4M1GCGTvKos9PnM-42">
+          <mxGeometry x="-0.7619" relative="1" as="geometry">
+            <mxPoint x="520" y="1297" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
